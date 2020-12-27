@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1077</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_A_Picture"/>
+    <addaction name="actionOpenCamera"/>
+    <addaction name="actionOpen_A_Video"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuFuction">
+    <property name="title">
+     <string>Fuction</string>
+    </property>
+    <addaction name="actionnormal"/>
+    <addaction name="actionexample"/>
+    <addaction name="actionncnn_yolact"/>
+   </widget>
+   <widget class="QMenu" name="menuSetting">
+    <property name="title">
+     <string>Setting</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuFuction"/>
+   <addaction name="menuSetting"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpenCamera">
+   <property name="text">
+    <string>OpenCamera</string>
+   </property>
+  </action>
+  <action name="actionOpen_A_Picture">
+   <property name="text">
+    <string>Open A Picture</string>
+   </property>
+  </action>
+  <action name="actionOpen_A_Video">
+   <property name="text">
+    <string>Open A Video</string>
+   </property>
+  </action>
+  <action name="actionexample">
+   <property name="text">
+    <string>cartoon</string>
+   </property>
+  </action>
+  <action name="actionnormal">
+   <property name="text">
+    <string>normal</string>
+   </property>
+  </action>
+  <action name="actionshowCtrlBar">
+   <property name="text">
+    <string>showCtrlBar</string>
+   </property>
+  </action>
+  <action name="actionncnn_yolact">
+   <property name="text">
+    <string>ncnn_yolact</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
